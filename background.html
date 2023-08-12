@@ -1,0 +1,296 @@
+ <html>
+  <head>
+    <style>
+     *{
+      box-sizing: border-box;
+      margin:0;
+      padding:0;
+      text-decoration: none;
+     }
+     #navbar::before{
+      content:"";
+      
+      position: fixed;
+      height:100%;
+      width:100%;
+      z-index: -1;
+      opacity: ;
+     }
+     #navbar{
+      display:flex;
+      align-items: center;
+       }
+     #logo{
+        margin: 3px 3px;
+        
+     }
+     #logo img{
+        height:100px;
+        width:100px;
+        border-radius:3px;
+        margin:3px 3px;
+        
+     }
+      #navbar ul{
+      display:flex;
+    
+
+     }
+     #navbar ul li{
+      list-style:none;
+      font-size:1.3rem;
+     }
+    #navbar ul li a{
+      
+      font-size: 2.1rem;
+      text-align: center;
+      color:greenyellow;
+
+      text-decoration:none;
+      padding:2px 12px;
+      border-radius:55px;
+      display: flex;
+  
+      align-items: center;
+      justify-content: center;
+      display:block;
+      text-indent: 2em;
+       tab-size: 0.5; /* 
+      font-size: 1.9rem;
+      text-align: center;
+
+      text-decoration:none;
+      padding:3px 13px;
+      border-radius:25px;
+      color:greenyellow;*/
+     } 
+     #navbar ul li a img{
+     height: 130px;
+     }
+     #navbar ul li a:hover{
+       background-color:rgb(109, 22, 94);
+       color:black;
+     }
+     #home{
+      display:flex;
+      flex-direction: column;
+      padding:3px 200px;
+      justify-content: center;
+      align-items: center;
+     }
+     #home::before{
+      content:"";
+      background: url("food6.jpg");
+      background-repeat: no-repeat;
+      background-size: calc(100%);
+      position:fixed;
+      color: grey;
+      height:120%;
+      width:100%;
+      z-index: -1;
+      opacity:0.79 ;
+     }
+     .primary{
+      font-size: 5.5rem;
+      height:100%;
+      color: brown;
+     }
+     .btn{
+      text-align: center;
+      padding:8px 15px;
+      border-color:greenyellow;
+      border-radius:5px;
+      font-style:none;
+      text-decoration: none;
+      font-size: 1.0rem;
+      background-color: greenyellow;
+     }
+     .btn:hover{
+      background-color: darkcyan;
+      color:black;
+     }
+     .para{
+      font-size: 3.3rem;
+      color:lightbrown;
+      
+     }
+    
+
+
+     #navbar{
+      display:flex;
+      align-items: center;
+       }
+     #logo{
+        margin: 3px 3px;
+        
+     }
+     #logo img{
+        height:100px;
+        width:100px;
+        border-radius:3px;
+        margin:3px 3px;
+        
+     }
+      #navbar1 ul{
+      display:flex;
+      
+      height:100%;
+      width: 100%;
+
+     }
+     #navbar1 ul li{
+      list-style:none;
+      font-size:1.3rem;
+     }
+     #navbar1 ul li a{
+      display:block;
+      
+    
+      font-size: 2.1rem;
+      text-align: center;
+      text-decoration:none;
+      padding:5px 5px;
+      border-radius:5px;
+      color:rgb(11, 1, 15);
+     }
+     #navbar1 ul li a img{
+     height: 150px;
+     }
+     #navbar1 ul li a:hover{
+       background-color:rgb(139, 174, 189);
+       color:whitesmoke;
+     }
+     .container{
+      display: flex;
+      align-items: center;
+      height: 70%;
+      width:100%;
+      
+     }
+     .box{
+      
+      text-align: center;
+      height:58%;
+      width:100%;
+      padding: 23px 23px;
+     }
+     .para1{
+      font-size: 1.9rem;
+      background-color: aliceblue;
+      border-radius: 17%;
+
+     }
+     .para1:hover{
+      background-color: black;
+      color:beige
+     }
+     .box img{
+      height:100%;
+      width:100%;
+      padding: 10px 12px;
+     }
+     .box1{
+      display: flex;
+      text-align: center;
+      border: 2px solid red;
+      border-color: aquamarine;
+      height:50%;
+      width: 40%;
+      left:400px;
+      padding: 23px 23px;
+     }
+     .box1 img{
+      height:100%;
+      width:100%;
+      padding: 10px 12px;
+     }
+     p{
+      padding: 5px;
+      font-size: 1.2rem;
+     }
+     .footer{
+      background-color: black;
+      padding: 12px 13px;
+     }
+     .footer li a{
+      padding: 12px 12px;
+      width:33%;
+      text-align: center;
+
+      
+     }
+     
+    </style>
+  </head>
+  <body>
+    <nav id="navbar">
+       <div id="logo">
+        <img src="logo.jpg">
+       </div>
+       <ul id="navy">
+        <li class="item"><a href="background.html">Home </a></li>
+        <li class="item"><a href="services.html">Services</a></li> 
+        <li class="item"><a href="-blank">Contact Us</a></li>
+        <li class="item"><a href="-blank">Rate Us</a></li>
+       </ul>
+    </nav>
+    <section id="home">
+      <legend><h1 class="primary">RC FOODS</h1></legend>
+      <p class="para">Hyderabad</p>
+      <br>
+      <br>
+     
+      <div id="navbar1">
+      <ul>
+        <li class="item"><a href="tiffin.html"><img src="tiffin.jpg">Tiffins</a></li>
+        <li class="item"><a href="meals.html"><img src="meal.jpg">Meals</a></li> 
+        <li class="item"><a href="buffet.html"><img src="buffet.jpg">Buffet</a></li>
+        <li class="item"><a href="ice.html"><img src="ice.jpg">Ice cream</a></li>
+       
+        <li class="item"><a href="milk.html"><img src="milk.jpg">Milkshakes</a></li>
+        <li class="item"><a href="bir.html"><img src="bir.jpg">Biryani's</a></li> 
+        <li class="item"><a href="bak.html"><img src="bak.jpg">Bakery</a></li>
+       </ul>
+    </section>
+  <section>
+    <div class="container">
+      <div class="box">
+        <p class="para1">catering</p>
+        <a href="cat.html"><img src="ice4.jpg"></a>
+      </div>
+      <div class="box">
+        <p class="para1">bulk catering</p>
+        <a href=bulk.html"><img src="ice5.jpg"></a>
+        
+      </div>
+      <div class="box">
+        <p class="para1">delivery</p>
+        <a href="del.html"><img src="bak.jpg"></a>
+      </div>
+      </div>
+      <br>
+    <footer class="footer">
+      <div>
+        <ul>
+          <li text-align="center">
+            <a href="#">about us</a>&nbsp;&nbsp;
+            <a href="#">FAQ</a>
+            <a href="#">@copyrights</a>
+          </li>
+        </ul>
+      </div>  
+      <div>
+        <ul>
+          <li>
+            <a href="#" class="fa fa-linkedin"></a>
+            <a href="#" class="fa fa-pinterest"></a>
+            <a href="#" class="fa fa-reddit"></a>
+
+            
+          </li>
+        </ul>
+      </div>  
+    </footer>
+   </body>
+</html>
